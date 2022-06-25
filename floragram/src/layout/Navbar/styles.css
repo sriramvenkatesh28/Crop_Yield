@@ -1,0 +1,25 @@
+.menu__icon {
+    height: 2rem;
+    width: 2rem;
+    margin-right: 1rem;
+}
+
+.logout__container {
+    color: white;
+    font-size: medium;
+    cursor: pointer;
+}
+
+.logout__container>svg {
+    margin-left: 1rem;
+}
+
+@media (max-width: 600px) {
+    .product__name {
+        display: none;
+    }
+
+    .logout__container {
+        margin-left: auto;
+    }
+}

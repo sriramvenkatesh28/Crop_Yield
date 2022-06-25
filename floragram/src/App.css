@@ -1,0 +1,82 @@
+.bg-myRed{
+  background-color: crimson;
+}
+
+.content{
+  min-height: 100vh;
+  width: 100%;  
+  background-color: #fcfcfc;
+}
+
+.form__container {
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 2rem;
+}
+
+.form__title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.form__container > div, form {
+  width: 100%;
+}
+
+.coloring{
+  color: black;
+}
+
+.dropdown__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.content__container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 0.5rem 0;
+  width: 100%;
+  border: 1px solid lightgrey;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: rgb(238, 251, 240);
+}
+
+.content__container > p {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.content__container > p > span {
+  font-weight: 400;
+  font-size: medium;
+}
+
+
+@media (max-width: 600px) {
+  .dropdown__container {
+    display: block;
+  }
+}
+
+.dropdown__container > button {
+  margin: 1rem 0 2rem;
+  background-color: rgb(58, 173, 85);
+}
+
+.dropdown__container > button:focus-within {
+  background-color: rgb(58, 173, 85);
+}
